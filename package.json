@@ -1,10 +1,13 @@
 {
+  "homepage": "https://subhanmeer.github.io/React-JS-Todo-Project-Context-Api-with-Local-Storage/",
   "name": "10todocontextlocalstorage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dev",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
